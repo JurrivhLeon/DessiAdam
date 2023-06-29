@@ -4,4 +4,5 @@ An Adam version of DessiLBI optimizer put forward in  paper Yanwei Fu, Chen Liu,
 To draw a loss landscape of VGG-A network (with or without BatchNorm), please run ```VGG_Loss_Landscape.py```. <br>
 To train a VGG-A network using DessiLBI or DessiAdam, please run ```VGG_trainer.py```. Please edit the optimizer you like to employ before running it.<br>
 To train a LeNet-5 network using DessiLBI or DessiAdam, please run ```LeNet_trainer.py```.<br>
-If you want to apply DessiAdam to train some other networks,
+If you want to apply DessiAdam to train some other networks, the following codes are needed.
+
