@@ -1,7 +1,7 @@
 """
 Neural Network and Deep Learning, Final Project.
 Optimization.
-Junyi Liao, 20307110289
+Junyi Liao
 An updated version of DessiLBI, with Adam.
 Modified from https://github.com/DessiLBI2020/DessiLBI/blob/master/DessiLBI/code/slbi_opt.py.
 """
