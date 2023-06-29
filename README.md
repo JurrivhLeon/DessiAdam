@@ -2,7 +2,7 @@
 An Adam version of DessiLBI optimizer put forward in  paper Yanwei Fu, Chen Liu, Donghao Li, Xinwei Sun, Jinshan Zeng, and Yuan Yao. Dessilbi: Exploring structural sparsity of deep networks via differential inclusion paths. In International Conference on Machine Learning, pages 3315–3326. PMLR, 2020.
 
 To plot a loss landscape of VGG-A network (with or without BatchNorm), please run ```VGG_Loss_Landscape.py```. <br>
-Examples:
+Examples:<br>
 ![avatar](landscape/loss_landscape.png)
 ![avatar](landscape/grad_pred.png)
 ![avatar](landscape/beta_smooth.png)
