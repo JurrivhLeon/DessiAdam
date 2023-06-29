@@ -1,7 +1,7 @@
 """
 Neural Network and Deep Learning, Final project.
 Optimization.
-Junyi Liao, 20307110289
+Junyi Liao
 VGG Visualization Module.
 """
 
