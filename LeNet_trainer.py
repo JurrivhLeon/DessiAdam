@@ -1,7 +1,7 @@
 """
 Neural Network and Deep Learning, Final Project.
 Optimization.
-Junyi Liao, 20307110289
+Junyi Liao
 Train LeNet networks over MNIST.
 """
 
