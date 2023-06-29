@@ -6,3 +6,6 @@ To train a VGG-A network using DessiLBI or DessiAdam, please run ```VGG_trainer.
 To train a LeNet-5 network using DessiLBI or DessiAdam, please run ```LeNet_trainer.py```.<br>
 If you want to apply DessiAdam to train some other networks, the following codes are needed.
 
+```python
+from slbi_adam import SLBI_Adam
+```
