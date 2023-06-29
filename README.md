@@ -8,4 +8,6 @@ If you want to apply DessiAdam to train some other networks, the following codes
 
 ```python
 from slbi_adam import SLBI_Adam
+import torch
+optimizer = 
 ```
