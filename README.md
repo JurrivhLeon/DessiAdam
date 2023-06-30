@@ -17,11 +17,11 @@ If you want to apply DessiAdam to train some other networks, the following codes
 from slbi_adam import SLBI_Adam
 import torch
 name_list, layer_list = [], []
-    for name, p in model.named_parameters():
-        name_list.append(name)
-        print(name)
-        if len(p.data.size()) == 4 or len(p.data.size()) == 2:
-            layer_list.append(name)
+for name, p in model.named_parameters():
+    name_list.append(name)
+    print(name)
+    if len(p.data.size()) == 4 or len(p.data.size()) == 2:
+        layer_list.append(name)
 
 optimizer = SLBI_Adam(model.parameters(), lr=lr, kappa=1, mu=100)
 optimizer.assign_name(name_list)
