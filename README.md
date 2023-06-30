@@ -35,3 +35,18 @@ optimizer.zero_grad()
 loss.backward()
 optimizer.step()
 ```
+
+Example: train a VGG-A network with different optimizers
+
+Training Loss and Validation Accuracy:
+
+<img src='figs/vggtrain.png'/>
+<img src='figs/vggval.png'/>
+
+The magnitude (Frobenius norm) of filters in the last convolutional layer of VGG-A:
+<p>
+    <img src='figs/vggsgd.png' width='400'/><img src='figs/vggadam.png' width='400'/>
+</p>
+<p>
+    <img src='figs/vggdessilbi.png' width='400'/><img src='figs/vggdessiadam.png' width='400'/>
+</p>
