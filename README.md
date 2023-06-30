@@ -50,5 +50,5 @@ The magnitude (Frobenius norm) of filters in the last convolutional layer of VGG
 </p>
 
 <p>
-    <img src='figs/vggdessilbi.png' width='400'/><img src='figs/vggdessiadam.png' width='400'/>
+    <img src='figs/vggdessilbi.png' height='320'/><img src='figs/vggdessiadam.png' height='320'/>
 </p>
