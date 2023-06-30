@@ -8,7 +8,7 @@ Examples:<br>
 ![avatar](landscape/grad_pred.png)
 ![avatar](landscape/beta_smooth.png)
 
-To train a VGG-A network using DessiLBI or DessiAdam, please run ```VGG_trainer.py```. Please edit the optimizer you like to employ before running it.<br>
+To train a VGG-A network using DessiLBI or DessiAdam, please run ```VGG_trainer.py```. Please edit the optimizer you like to employ before running it (line 206-212).<br>
 To train a LeNet-5 network using DessiLBI or DessiAdam, please run ```LeNet_trainer.py```.<br>
 If you want to apply DessiAdam to train some other networks, the following codes are needed.
 
