@@ -1,5 +1,5 @@
 # DessiAdam
-An Adam version of DessiLBI optimizer proposed by Yanwei Fu, Chen Liu, Donghao Li, Xinwei Sun, Jinshan Zeng, and Yuan Yao. Dessilbi: Exploring structural sparsity of deep networks via differential inclusion paths. In *International Conference on Machine Learning, pages 3315–3326. PMLR*, 2020.
+An Adam version of DessiLBI optimizer proposed by Yanwei Fu, Chen Liu, Donghao Li, Xinwei Sun, Jinshan Zeng, and Yuan Yao. Dessilbi: Exploring structural sparsity of deep networks via differential inclusion paths. In *International Conference on Machine Learning*, pages 3315–3326. PMLR, 2020.
 
 To plot a loss landscape of VGG-A network (with or without BatchNorm), please run ```VGG_Loss_Landscape.py```. This is a repetition of partial work in  Santurkar, Shibani, Dimitris Tsipras, Andrew Ilyas, and Aleksander Madry. How does batch normalization help optimization? In *Advances in neural information processing systems 31*, 2018.<br>
 
